@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -24,6 +23,7 @@ wheels/
 # Virtual Environment
 venv/
 ENV/
+env/
 
 # IDE
 .idea/
@@ -34,4 +34,9 @@ ENV/
 # Project specific
 .env
 *.db
-*.sqlite3 
+*.sqlite3
+*.html  # Временные файлы с графиками
+plot_*.html
+
+# Logs
+*.log 
